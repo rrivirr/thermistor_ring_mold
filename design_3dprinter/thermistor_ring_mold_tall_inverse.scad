@@ -4,8 +4,8 @@
 
 difference()
     {
-        translate([0,0,5]) {
-         cube([70, 70, 20],center=true);
+        translate([0,0,2.5]) {
+         cube([70, 70, 15],center=true);
         }
 
 
