@@ -3,19 +3,19 @@ difference()
   {
   difference()
     {
-        cylinder(h=27.92, r1=70, r2=70,center=true);
-        translate([0,0,20]) {
+        cylinder(h=10.92, r1=30, r2=30,center=true);
+        translate([0,0,14]) {
         difference()
             {
-            cylinder(28,r1=50,r2=50,center=true);
+            cylinder(30,r1=25.4,r2=25.4,center=true);
             cylinder(60,r1=15.5,r2=15.5,center=true);   
             }
         }
 }
-   translate([0,0,30]) {
+   translate([0,0,23]) {
   difference()
  {
-    cylinder(42,r1=44,r2=44,center=true);
+    cylinder(42,r1=25.4,r2=25.4,center=true);
     cylinder(60,r1=14.5,r2=14.5,center=true);   
  }
 }
