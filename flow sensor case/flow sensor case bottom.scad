@@ -41,12 +41,12 @@ difference() {
 
     difference() {
         cylinder(h=3, d=52);
-        cylinder(h=3, d=9.52);
+        cylinder(h=3, d=10.1);
     }
     
     difference() {
         cylinder(h=5, d=52);
-        cylinder(h=5, d=11.2);
+        cylinder(h=5, d=11.5);
     }    
 
 
