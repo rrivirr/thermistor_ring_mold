@@ -1,9 +1,15 @@
 union() {
 translate([0,0,40]) {    
-        difference() {
+    difference(){
+    difference() {
         cylinder(h=5, d=52);
-        cylinder(h=5, d=20.32);
+        cylinder(h=5, d=21.1);
     }
+    translate([18,0,0]){
+        cylinder(h=5,d=10);
+}
+}
+    
 }
 
     // Outer ring (42mm to 52mm diameter)
