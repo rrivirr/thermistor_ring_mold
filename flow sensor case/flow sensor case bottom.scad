@@ -5,8 +5,8 @@ union() {
 difference() {
     // Main hollow cylinder
     difference() {
-        cylinder(h=40, d=52);
-        cylinder(h=40, d=48);
+        cylinder(h=40, d=49);
+        cylinder(h=40, d=45);
     }
     
     // Holes spaced every 10mm vertically and horizontally
@@ -27,7 +27,7 @@ difference() {
             rotate([0,0,angle]) {
                 translate([24.5,0,z]) {
                     rotate([0,90,0]) {
-                        cylinder(h=10, d=2, center=true);
+                        cylinder(h=10, d=2.2, center=true);
                     }
                 }
             }
@@ -40,13 +40,13 @@ difference() {
 
 
     difference() {
-        cylinder(h=3, d=52);
-        cylinder(h=3, d=10.1);
+        cylinder(h=2, d=49);
+        cylinder(h=2, d=10.1);
     }
     
     difference() {
-        cylinder(h=5, d=52);
-        cylinder(h=5, d=11.5);
+        cylinder(h=4, d=49);
+        cylinder(h=4, d=11.5);
     }    
 
 
@@ -54,8 +54,8 @@ difference() {
 translate([0,0,40]) {
     // Your ring code here
     difference() {
-        cylinder(h=3, d=52);
-        cylinder(h=3, d=50);
+        cylinder(h=3, d=49);
+        cylinder(h=3, d=47.5);
     }
 }
 

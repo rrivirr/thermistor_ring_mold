@@ -2,21 +2,22 @@ union() {
 translate([0,0,40]) {    
     difference(){
     difference() {
-        cylinder(h=5, d=52);
+        cylinder(h=5, d=49);
         cylinder(h=5, d=21.1);
     }
-    translate([18,0,0]){
-        cylinder(h=5,d=10);
+    translate([12,-6.5,0]){
+        cube([9,13,5]);
+//        cylinder(h=5,d=10);
 }
 }
     
 }
 
-    // Outer ring (42mm to 52mm diameter)
+    // Outer ring (42mm to 52mm diameter, now chnaged to 46 to 49mm)
 difference() {
     // Main hollow cylinder
     difference() {
-        cylinder(h=40, d=52);
+        cylinder(h=40, d=49);
         cylinder(h=40, d=46);
     }
     
