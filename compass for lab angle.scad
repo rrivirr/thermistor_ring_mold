@@ -12,7 +12,7 @@ hole_diameter  = 0.25 * 25.4;   // 6.35 mm
 hole_radius    = hole_diameter / 2;
 
 // Mounting cylinder (underside, pole socket)
-pole_nominal   = (5/16) * 25.4; // 7.9375 mm — nominal 5/16" pole OD
+pole_nominal   = 11.55; // 7.9375 mm — nominal 5/16" pole OD
 mount_id       = pole_nominal + 0.4;  // ~8.34 mm — slip fit clearance
 mount_wall     = 2.5;                 // wall thickness in mm
 mount_od       = mount_id + 2 * mount_wall;
