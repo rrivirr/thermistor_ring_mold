@@ -19,6 +19,10 @@ difference()
                         }
                         translate([0,0,-12.5])
                             cylinder(2, r1=15.5, r2=15.5, center=true);
+                        
+                        translate([0,0,-8.9])
+                            cylinder(2.2, r1=15.5, r2=15.5, center=true);
+                        
                     }
                 }
             }
